@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<testsuite name="Firefox 76.0 (Windows 10)" package="" timestamp="2020-06-04T11:40:33" id="0" hostname="pcalopez" tests="12" errors="0" failures="10" time="0.307">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0"/>
+  </properties>
+  <testcase name="AppComponent should keep note selected after its saved" time="0.117" classname="AppComponent">
+    <failure type="">TypeError: note is undefined in http://localhost:9876/_karma_webpack_/main.js (line 658)
+selectListNote@http://localhost:9876/_karma_webpack_/main.js:658:9
+./src/testing/app.component.spec.ts/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:597:14
+fakeAsync/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110917:34
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:109713:38
+wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:109728:24
+&lt;Jasmine&gt;
+runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:51
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:33
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110143:39
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3623:35
+runTask@http://localhost:9876/_karma_webpack_/polyfills.js:3391:51
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3704:38
+ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3693:52
+timer@http://localhost:9876/_karma_webpack_/polyfills.js:5776:33
+</failure>
+  </testcase>
+  <testcase name="AppComponent should not change note on list until its saved" time="0.024" classname="AppComponent">
+    <failure type="">TypeError: note is undefined in http://localhost:9876/_karma_webpack_/main.js (line 658)
+selectListNote@http://localhost:9876/_karma_webpack_/main.js:658:9
+./src/testing/app.component.spec.ts/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:586:14
+execute@http://localhost:9876/_karma_webpack_/vendor.js:82701:19
+inject/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:83744:28
+fakeAsync/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110917:34
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:109713:38
+wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:109728:24
+&lt;Jasmine&gt;
+runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:51
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:33
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110143:39
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3623:35
+runTask@http://localhost:9876/_karma_webpack_/polyfills.js:3391:51
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3704:38
+ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3693:52
+timer@http://localhost:9876/_karma_webpack_/polyfills.js:5776:33
+</failure>
+  </testcase>
+  <testcase name="AppComponent should set font color on the list item note`s color" time="0.016" classname="AppComponent">
+    <failure type="">TypeError: note is undefined in http://localhost:9876/_karma_webpack_/main.js (line 658)
+selectListNote@http://localhost:9876/_karma_webpack_/main.js:658:9
+./src/testing/app.component.spec.ts/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:620:25
+fakeAsync/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110917:34
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:109713:38
+wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:109728:24
+&lt;Jasmine&gt;
+runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:51
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:33
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110143:39
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3623:35
+runTask@http://localhost:9876/_karma_webpack_/polyfills.js:3391:51
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3704:38
+ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3693:52
+timer@http://localhost:9876/_karma_webpack_/polyfills.js:5776:33
+</failure>
+  </testcase>
+  <testcase name="AppComponent should make note list item font 16px when note is favourite" time="0.015" classname="AppComponent">
+    <failure type="">TypeError: note is undefined in http://localhost:9876/_karma_webpack_/main.js (line 658)
+selectListNote@http://localhost:9876/_karma_webpack_/main.js:658:9
+./src/testing/app.component.spec.ts/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:610:25
+fakeAsync/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110917:34
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:109713:38
+wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:109728:24
+&lt;Jasmine&gt;
+runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:51
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:33
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110143:39
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3623:35
+runTask@http://localhost:9876/_karma_webpack_/polyfills.js:3391:51
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3704:38
+ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3693:52
+timer@http://localhost:9876/_karma_webpack_/polyfills.js:5776:33
+</failure>
+  </testcase>
+  <testcase name="AppComponent should list all notes" time="0.014" classname="AppComponent">
+    <failure type="">Expected 3 to equal 0.
+&lt;Jasmine&gt;
+./src/testing/app.component.spec.ts/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:539:40
+execute@http://localhost:9876/_karma_webpack_/vendor.js:82701:19
+inject/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:83744:28
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/AsyncTestZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:110200:47
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109457:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+runGuarded@http://localhost:9876/_karma_webpack_/polyfills.js:3357:51
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:110322:33
+asyncTest/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110260:34
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:109710:38
+wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:109726:24
+&lt;Jasmine&gt;
+runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:51
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:33
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110143:39
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3623:35
+runTask@http://localhost:9876/_karma_webpack_/polyfills.js:3391:51
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3704:38
+ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3693:52
+timer@http://localhost:9876/_karma_webpack_/polyfills.js:5776:33
+</failure>
+  </testcase>
+  <testcase name="AppComponent should show empty form when new note is created" time="0.033" classname="AppComponent"/>
+  <testcase name="AppComponent should populate inputs with selected note`s title and text" time="0.015" classname="AppComponent">
+    <failure type="">TypeError: note is undefined in http://localhost:9876/_karma_webpack_/main.js (line 658)
+selectListNote@http://localhost:9876/_karma_webpack_/main.js:658:9
+./src/testing/app.component.spec.ts/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:547:14
+fakeAsync/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110917:34
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:109713:38
+wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:109728:24
+&lt;Jasmine&gt;
+runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:51
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:33
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110143:39
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3623:35
+runTask@http://localhost:9876/_karma_webpack_/polyfills.js:3391:51
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3704:38
+ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3693:52
+timer@http://localhost:9876/_karma_webpack_/polyfills.js:5776:33
+</failure>
+  </testcase>
+  <testcase name="AppComponent should select note when clicked (add `active` class)" time="0.014" classname="AppComponent">
+    <failure type="">TypeError: note is undefined in http://localhost:9876/_karma_webpack_/main.js (line 658)
+selectListNote@http://localhost:9876/_karma_webpack_/main.js:658:9
+./src/testing/app.component.spec.ts/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:542:27
+execute@http://localhost:9876/_karma_webpack_/vendor.js:82701:19
+inject/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:83744:28
+fakeAsync/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110917:34
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:109713:38
+wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:109728:24
+&lt;Jasmine&gt;
+runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:51
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:33
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110143:39
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3623:35
+runTask@http://localhost:9876/_karma_webpack_/polyfills.js:3391:51
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3704:38
+ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3693:52
+timer@http://localhost:9876/_karma_webpack_/polyfills.js:5776:33
+</failure>
+  </testcase>
+  <testcase name="AppComponent should save note when Save button is clicked" time="0.025" classname="AppComponent">
+    <failure type="">TypeError: saveBtn is null in http://localhost:9876/_karma_webpack_/main.js (line 680)
+saveNoteForm@http://localhost:9876/_karma_webpack_/main.js:680:9
+./src/testing/app.component.spec.ts/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:558:14
+fakeAsync/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110917:34
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:109713:38
+wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:109728:24
+&lt;Jasmine&gt;
+runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:51
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:33
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110143:39
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3623:35
+runTask@http://localhost:9876/_karma_webpack_/polyfills.js:3391:51
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3704:38
+ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3693:52
+timer@http://localhost:9876/_karma_webpack_/polyfills.js:5776:33
+</failure>
+  </testcase>
+  <testcase name="AppComponent should save note using NoteService when form is submitted" time="0.01" classname="AppComponent"/>
+  <testcase name="AppComponent should remove field`s error message when field has no errors" time="0.013" classname="AppComponent">
+    <failure type="">TypeError: note is undefined in http://localhost:9876/_karma_webpack_/main.js (line 658)
+selectListNote@http://localhost:9876/_karma_webpack_/main.js:658:9
+./src/testing/app.component.spec.ts/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:574:14
+fakeAsync/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110917:34
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:109713:38
+wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:109728:24
+&lt;Jasmine&gt;
+runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:51
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:33
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110143:39
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3623:35
+runTask@http://localhost:9876/_karma_webpack_/polyfills.js:3391:51
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3704:38
+ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3693:52
+timer@http://localhost:9876/_karma_webpack_/polyfills.js:5776:33
+</failure>
+  </testcase>
+  <testcase name="AppComponent should disable save button when required fields are empty" time="0.011" classname="AppComponent">
+    <failure type="">TypeError: note is undefined in http://localhost:9876/_karma_webpack_/main.js (line 658)
+selectListNote@http://localhost:9876/_karma_webpack_/main.js:658:9
+./src/testing/app.component.spec.ts/&lt;/&lt;@http://localhost:9876/_karma_webpack_/main.js:567:14
+fakeAsync/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110917:34
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.js:109713:38
+wrapTestInZone/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:109728:24
+&lt;Jasmine&gt;
+runInTestZone/&lt;/testZoneSpec&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:51
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3588:30
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/ProxyZoneSpec.prototype.onInvoke@http://localhost:9876/_karma_webpack_/vendor.js:109460:43
+invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3587:36
+run@http://localhost:9876/_karma_webpack_/polyfills.js:3347:47
+runInTestZone/&lt;/testZoneSpec&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110309:33
+./node_modules/zone.js/dist/zone-testing.js/&lt;/&lt;/AsyncTestZoneSpec.prototype._finishCallbackIfDone/&lt;/&lt;@http://localhost:9876/_karma_webpack_/vendor.js:110143:39
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3623:35
+runTask@http://localhost:9876/_karma_webpack_/polyfills.js:3391:51
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.js:3704:38
+ZoneTask/this.invoke@http://localhost:9876/_karma_webpack_/polyfills.js:3693:52
+timer@http://localhost:9876/_karma_webpack_/polyfills.js:5776:33
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
